@@ -1,0 +1,32 @@
+.todo {
+	color: #fff;
+	width: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 10px;
+	border-radius: 5px;
+	background: rgb(37, 37, 37);
+	margin-bottom: 20px;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	&:hover {
+		background: rgb(53, 53, 53);
+		.todo__check {
+			border: 2px solid rgb(161, 130, 104);
+		}
+	}
+	// .todo__check
+	&__check {
+		border: 2px solid rgb(166, 104, 49);
+		padding: 5px 10px;
+		border-radius: 5px;
+		cursor: pointer;
+		transition: all 0.3s ease 0s;
+		&:hover {}
+	}
+	// .todo__text
+	&__text {}
+	// .todo__delete
+	&__delete {}
+}
